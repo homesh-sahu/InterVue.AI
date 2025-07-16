@@ -1,3 +1,35 @@
+🚀 InterVue.AI
+InterVue.AI is a voice-enabled mock interview platform designed to help users prepare for job interviews through interactive AI conversations and automated feedback. It combines modern web technologies with smart voice agents and Gemini-powered analysis to deliver a realistic interview experience.
+
+🧰 Tech Stack
+- Next.js – Handles both frontend and backend logic with a powerful React framework
+- Firebase – Powers user authentication and stores interview and feedback data
+- TailwindCSS – Used for responsive and clean styling across the app
+- Vapi AI – Provides the voice assistant that conducts live mock interviews
+- Google Gemini – Processes transcripts and generates structured interview feedback
+- Zod – Used for validating and shaping feedback data
+- shadcn/ui – Offers reusable UI components for a modern and sleek interface
+
+✨ Key Features
+- Secure Authentication
+Users can register and log in using Firebase email/password support
+- Create AI Interviews
+Easily launch an interview session with a voice agent tailored to your questions
+- Real-Time Transcript + Feedback
+The interview is recorded and transcribed live, with feedback generated immediately after
+- Feedback Page
+Structured evaluation including scores, strengths, improvement areas, and final assessment
+- Dashboard Overview
+Users can view past interviews, track feedback, and explore new mock sessions
+- Responsive UI/UX
+Styled with TailwindCSS and shadcn/ui for fluid performance across devices
+- Modular Codebase
+Organized with reusable components and server actions for clean maintainability
+
+
+<................./>
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
