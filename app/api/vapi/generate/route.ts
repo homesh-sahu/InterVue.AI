@@ -1,7 +1,5 @@
 import { generateText } from 'ai'     //AI SDK by vercel
 import { google } from '@ai-sdk/google'
-import { json } from 'stream/consumers'
-import { tr } from 'zod/v4/locales'
 import { getRandomInterviewCover } from '@/lib/utils'
 import { db } from '@/firebase/admin'
 

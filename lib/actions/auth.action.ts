@@ -1,7 +1,6 @@
 'use server'
 
 import { auth, db } from "@/firebase/admin"
-import { get } from "http";
 import { cookies } from "next/headers"
 
 export async function signUp(params: SignUpParams) {
@@ -116,3 +115,4 @@ export async function isAuthenticated(){
 
     return !!user      //for converting the object to boolean
 }
+
